@@ -17,7 +17,7 @@ require('laravel-react');
 
 elixir(function(mix) {
 
-    mix.reactifyBrowserifyElixir({
+    mix.elixirReactify({
         inputFile: './resources/assets/js/react/app.js', 
         inputFileName: 'bundle.js', 
         outputDirectory: 'public/js/',

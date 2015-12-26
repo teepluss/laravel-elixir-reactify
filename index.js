@@ -7,8 +7,8 @@ var reactify   = require('reactify');
 var Task = elixir.Task;
 
 // Create a new command for Laravel Elixir that will browserify and Reactify 
-elixir.extend('reactifyBrowserifyElixir', function(params) {
-    new Task('browserify_and_reactify', function() {
+elixir.extend('elixirReactify', function(params) {
+    new Task('browserifyreactify', function() {
         var b = browserify();
         b.transform(reactify); 
         b.add(params.inputFile);
