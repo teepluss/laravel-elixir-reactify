@@ -1,85 +1,36 @@
+
 {
-  "_args": [
-    [
-      "laravel-react",
-      "/Users/Tee/Sites/LampBox/Laravel/L52"
-    ]
-  ],
-  "_from": "laravel-react@latest",
-  "_id": "laravel-react@1.0.2",
-  "_inCache": true,
-  "_installable": true,
-  "_location": "/laravel-react",
-  "_nodeVersion": "4.2.1",
-  "_npmUser": {
-    "email": "teepluss@gmail.com",
-    "name": "teepluss"
+  "name": "laravel-react",
+  "version": "1.0.1",
+  "description": "Laravel Elixir React",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "_npmVersion": "3.5.1",
-  "_phantomChildren": {},
-  "_requested": {
-    "name": "laravel-react",
-    "raw": "laravel-react",
-    "rawSpec": "",
-    "scope": null,
-    "spec": "latest",
-    "type": "tag"
-  },
-  "_requiredBy": [
-    "/"
-  ],
-  "_shasum": "d00ef4b3c26b0fd3f9396088147b385b4b147277",
-  "_shrinkwrap": null,
-  "_spec": "laravel-react",
-  "_where": "/Users/Tee/Sites/LampBox/Laravel/L52",
-  "author": {
-    "name": "Teepluss"
-  },
-  "bugs": {
-    "url": "https://github.com/teepluss/laravel-elixir-reactify/issues"
+  "devDependencies": {
+    "gulp": "^3.8.8",
+    "browserify": "^12.0.1",
+    "vinyl-source-stream": "^1.1.0",
+    "babelify": "^7.2.0"
   },
   "dependencies": {
     "laravel-elixir": "^4.0.0",
     "react": "^0.14.3",
     "react-dom": "^0.14.3"
   },
-  "description": "Laravel Elixir React",
-  "devDependencies": {
-    "browserify": "^12.0.1",
-    "gulp": "^3.8.8",
-    "reactify": "^1.1.1",
-    "babelify": "^7.2.0",
-    "vinyl-source-stream": "^1.1.0"
-  },
-  "directories": {},
-  "dist": {
-    "shasum": "d00ef4b3c26b0fd3f9396088147b385b4b147277",
-    "tarball": "http://registry.npmjs.org/laravel-react/-/laravel-react-1.0.2.tgz"
-  },
-  "gitHead": "f3c9dafbeebb98809f5d975e54d687eb0d4bd1d0",
-  "homepage": "https://github.com/teepluss/laravel-elixir-reactify#readme",
-  "keywords": [
-    "elixir",
-    "laravel",
-    "react"
-  ],
-  "license": "ISC",
-  "main": "index.js",
-  "maintainers": [
-    {
-      "name": "teepluss",
-      "email": "teepluss@gmail.com"
-    }
-  ],
-  "name": "laravel-react",
-  "optionalDependencies": {},
-  "readme": "ERROR: No README data found!",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/teepluss/laravel-elixir-reactify.git"
+    "url": "https://github.com/teepluss/laravel-elixir-reactify.git"
   },
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+  "keywords": [
+    "laravel",
+    "elixir",
+    "react"
+  ],
+  "author": "Teepluss",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/teepluss/laravel-elixir-reactify/issues"
   },
-  "version": "1.0.2"
+  "homepage": "https://github.com/teepluss/laravel-elixir-reactify#readme"
 }
